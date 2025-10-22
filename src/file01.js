@@ -12,7 +12,8 @@ import  {setTitle} from './functions.js';
  * Referencia: https://javascript.info/import-export
  */
 
-
+let pageTitle = "Datos comparativos de frameworks JavaScript modernos";
+let pageId = "title";
 
 /** 
  * TO-DO: 
@@ -24,4 +25,4 @@ import  {setTitle} from './functions.js';
 
 
 // TO-DO: Llama a la función setTitle para establecer el contenido del elemento HTML con el ID especificado
-
+setTitle(pageId, pageTitle);
